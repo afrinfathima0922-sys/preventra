@@ -1,0 +1,38 @@
+{
+    "model_name": "Gradient Boosting",
+    "accuracy": 0.8133366385721368,
+    "precision": 0.8126899315071667,
+    "recall": 0.8133366385721368,
+    "f1_score": 0.8015638775722386,
+    "features": [
+        "Age",
+        "BMI",
+        "Glucose",
+        "BloodPressure",
+        "Cholesterol",
+        "Smoking",
+        "Alcohol",
+        "PhysicalActivity",
+        "SleepHours",
+        "StressLevel",
+        "FamilyHistory"
+    ],
+    "target_classes": [
+        "Low Risk",
+        "Medium Risk",
+        "High Risk"
+    ],
+    "training_samples": 16134,
+    "test_samples": 4034,
+    "total_samples": 20168,
+    "datasets_used": 4,
+    "dataset_sources": [
+        "diabetes.csv",
+        "heart.csv",
+        "s1.csv",
+        "s2.csv"
+    ],
+    "training_date": "2025-10-31 05:18:43",
+    "model_version": "1.0",
+    "framework": "Preventra AI Health Risk Predictor"
+}
